@@ -1,0 +1,70 @@
+.*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Roboto',sans-serif;
+}
+
+.container{
+	width:90%;
+	margin:0 auto;
+	
+}
+
+.main-background{
+	background-image:url('https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials-bg.jpg');
+	background-position:center;
+	padding:40px 0;
+	margin-top:40px;
+	margin-bottom:40px;
+	position:relative;
+}
+
+.row{
+	text-align:center;
+	height:58vh;
+	
+}
+
+img{
+	border-radius:50%;
+	margin-bottom:10px;
+	height:100px;
+	width:100px;
+	border:6px solid rgba(255, 255, 255, 0.15);
+}	
+ 
+ .col{
+	padding-top:70px;
+	position:absolute;
+	margin-left:13%
+ }
+ 
+ h3{
+	font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+ }
+ 
+ h4{
+	font-size: 14px;
+    color: #ddd;
+    margin: 0 0 15px 0;
+ }
+ 
+ .main-background::before{
+	 content:"";
+	 background:rgba(0,0,0,0.7);
+	 position:absolute;
+	 left:0;
+	 top:0;
+	 right:0;
+	 bottom:0;
+ }
+	 
+p{
+	color:#fff;
+}
+	 
+ 
